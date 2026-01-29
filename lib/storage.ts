@@ -1,14 +1,14 @@
 import { put, del, list } from '@vercel/blob';
 import { v4 as uuidv4 } from 'uuid';
 
-export interface UploadResult {
+export type UploadResult = {
   success: true;
   url: string;
   size: number;
 } | {
   success: false;
   error: string;
-}
+};
 
 // Upload PDF to Vercel Blob storage
 export async function uploadPdf(

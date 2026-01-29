@@ -1,7 +1,4 @@
-import { neon, neonConfig } from '@neondatabase/serverless';
-
-// Configure Neon for serverless environment
-neonConfig.fetchConnectionCache = true;
+import { neon } from '@neondatabase/serverless';
 
 // Create database connection
 export const sql = neon(process.env.DATABASE_URL!);
