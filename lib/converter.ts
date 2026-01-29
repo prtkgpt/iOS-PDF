@@ -30,6 +30,7 @@ export async function convertToPdf(
       case 'gif':
       case 'bmp':
       case 'tiff':
+      case 'heic':
         return await convertImageToPdf(fileBuffer, mimeType);
 
       // Documents
