@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Vercel serverless API for iOS File to PDF converter",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build",
-    "deploy": "vercel deploy --prod",
     "db:migrate": "psql $DATABASE_URL < database/schema.sql"
   },
   "dependencies": {
