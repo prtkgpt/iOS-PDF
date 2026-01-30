@@ -12,7 +12,7 @@ enum Config {
 
     /// Base URL for the Vercel API
     /// Update this after deploying to Vercel
-    static let apiBaseURL = "https://your-app.vercel.app"
+    static let apiBaseURL = "https://i-os-b9idtctem-prateek-gupta.vercel.app"
 
     // MARK: - API Endpoints
 
